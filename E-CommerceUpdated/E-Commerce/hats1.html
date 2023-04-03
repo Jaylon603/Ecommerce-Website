@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- doctype declaration -->
+<html lang="en">
+  <head>
+    <title>E-commerce</title>                                  
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        float: left;
+      }
+
+      .Navebar {
+        display: block;
+        padding-top: 2px;
+        padding-right: 99px;
+        padding-left: 99px;
+        padding-bottom: 2px;
+        background-color: #fa924d;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--The header, contains the Website/System name and login/signup and home to return to the mainpage-->
+    <header style="text-align:right">
+        <a href="mainpage.html" title="Return to Mainpage">Home</a>
+        <a href="login.html" title="login">Login</a>
+        <a href="signup.html" title="signup">Signup</a>
+      <h1 title="tooltip" style="text-align:center;">E-Commerce System</h1>
+    </header>
+
+    <ul>
+        <!-- These are the links to different clothing sections html files from images-->
+          <li><a href="shirts.html" title="Shirts" class="Navebar"><p style="font-size:1.5vw">Shirts</p></a></li>
+          <li><a href="pants.html" title="Pants"class="Navebar"><p style="font-size:1.5vw">Pants</p></a></li>
+          <li><a href="shorts.html" title="Shorts"class="Navebar"><p style="font-size:1.5vw">Shorts</p></a></li>
+          <li><a href="shoes.html" title="Shoes"class="Navebar"><p style="font-size:1.5vw">Shoes</p></a></li>
+          <li><a href="hats.html" title="Hats"class="Navebar"><p style="font-size:1.5vw">Hats</p></a></li>
+          <li><a href="socks.html" title="Socks"class="Navebar"><p style="font-size:1.5vw">Socks</p></a></li>
+    </ul>
+
+    <!--Picture of Item-->
+    <h1 style="clear:left">Hat1</h1>
+        <img src="hat.jpg" alt="Hat1" style="float:left;width:300px;height:300px;">
+        
+    <!--A description of the item being sold along with selection of color, size, and quantity to buy-->
+    <h1> Description</h1>
+    <p style="font-size:1.2vw">A Hat. <br><br>
+    <label for="size">Size:</label>
+    <select name="size" id="Size">
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select> <br>
+    <label for="color">Color:</label>
+    <select name="color" id="Color">
+      <option value="red">Red</option>
+      <option value="green">Green</option>
+      <option value="blue">Blue</option>
+      <option value="white">White</option>
+      <option value="black">Black</option>
+    </select> <br>
+    <label for="quantity">How many do you want to buy?:</label>
+    <select name="quantity" id="Quantity">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+      <option value="four">4</option>
+      <option value="five">5</option>
+      <option value="six">6</option>
+      <option value="seven">7</option>
+      <option value="eight">8</option>
+      <option value="nine">9</option>
+    </select> <br>
+    Price: $0.00 <br>
+    In-stock: Yes/No
+    </p>
+    <br>
+
+    <!--Link to checkout-->
+    <a href="cart.html"><p style="clear:left"><br>Add to Cart</p></a> 
+    
+    
+    <!--Contact Us section if the customer has an issue-->
+    <footer style="clear:left">
+      <br>
+      <hr>
+      <header><b>Contact us</b></header>
+      <p>Adress: 1400 SPRING GARDEN STREET,Greensboro NC, 27412</p>
+      <p>Telephone: (336)334-5000</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- doctype declaration -->
+<html lang="en">
+  <head>
+    <title>E-commerce</title>                                
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        float: left;
+      }
+
+      .Navebar {
+        display: block;
+        padding-top: 2px;
+        padding-right: 99px;
+        padding-left: 99px;
+        padding-bottom: 2px;
+        background-color: #fa924d;
+      }
+
+      table, th, td {
+        border: 1px solid rgb(158, 77, 77);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--The header, contains the Website/System name and login/signup and home to return to the mainpage-->
+    <header style="text-align:right">
+      <a href="mainpage.html" title="Return to Mainpage">Home</a>
+      <a href="login.html" title="login">Login</a>
+      <a href="signup.html" title="signup">Signup</a>
+      <h1 title="tooltip" style="text-align:center;">E-Commerce System</h1>
+    </header>
+
+    <ul>
+        <!-- These are the links to different clothing sections html files from images-->
+          <li><a href="shirts.html" title="Shirts" class="Navebar"><p style="font-size:1.5vw">Shirts</p></a></li>
+          <li><a href="pants.html" title="Pants"class="Navebar"><p style="font-size:1.5vw">Pants</p></a></li>
+          <li><a href="shorts.html" title="Shorts"class="Navebar"><p style="font-size:1.5vw">Shorts</p></a></li>
+          <li><a href="shoes.html" title="Shoes"class="Navebar"><p style="font-size:1.5vw">Shoes</p></a></li>
+          <li><a href="hats.html" title="Hats"class="Navebar"><p style="font-size:1.5vw">Hats</p></a></li>
+          <li><a href="socks.html" title="Socks"class="Navebar"><p style="font-size:1.5vw">Socks</p></a></li>
+    </ul>
+
+    <h1 style="clear:left;text-align:center">Here are the users in the system's database:</h1>
+
+    <!--table of users in database-->
+    <table>
+        <tr>
+          <th>Username</th>
+          <th>Access Level</th>
+          <th>Email</th>
+          <th>User ID</th>
+        </tr>
+        <tr>
+          <td>EgeKeser</td>
+          <td>Manager</td>
+          <td>e_keser@uncg.edu</td>
+          <td>000001</td>
+        </tr>
+        <tr>
+          <td>MattIgo</td>
+          <td>Employee</td>
+          <td>mcigo@uncg.edu</td>
+          <td>000002</td>
+        </tr>
+        <tr>
+          <td>JaylonNorris</td>
+          <td>Customer</td>
+          <td>jenorris@uncg.edu</td>
+          <td>000002</td>
+        </tr>
+    </table>
+
+    <!--A manager may add, remove, or edit users-->
+    <br>
+    <a href="addUser.html"><input type="button" name="addUser" id="addUser" value="Add User"></a>
+    <a href="removeUser.html"><input type="button" name="removeUser" id="removeUser" value="Remove User"></a>
+    <a href="editUser.html"><input type="button" name="editUser" id="editUser" value="Edit User"></a>
+
+    <!--Contact Us section if the customer has an issue-->
+    <footer style="clear: left">
+      <br>
+      <hr>
+      <header><b>Contact us</b></header>
+      <p>Adress: 1400 SPRING GARDEN STREET,Greensboro NC, 27412</p>
+      <p>Telephone: (336)334-5000</p>
+    </footer>
+  </body>
+</html>
