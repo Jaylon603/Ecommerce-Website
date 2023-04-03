@@ -1,2 +1,2 @@
 # Ecommerce-Website
-Simple website for a clothing store with 3 layers(User, employee, and owner).
+E-commerce Software System is an exciting new website created to meet all of customers' apparel needs. With a simple and flexible system built to help build, update, and maintain your website. Also Managers and employees will be able to do their job efficiently and with ease, now that day to day tasks are as easy as the click of a button. With the E-commerce Software System crude and glitchy websites will be a thing of the past. Big and small business owners can profit from our free to use system available across the country. Making E-commerce Software System the obvious choice for all your website management needs.
